@@ -1,3 +1,41 @@
 /* MTM1544 Week 1: your stylesheet.
    This file is already linked from index.html. Write your rules below.
    Start by changing the body background colour and saving, to confirm the link works. */
+
+   h1 {
+  background-color: #d8d2e1;
+   }
+
+
+   /*paragraph selector with ebony colour + line-height of 2*/
+   p {
+      color: #4A5043;
+      line-height: 2;
+   }
+
+   /*heading 2 selector with dark crimson color*/
+   h2{
+      color: #490E11;
+   }
+
+   /* Group of heading 1&2 with cursive font*/
+   h1, h2{
+      font-family: cursive;
+   }
+
+   /* .intro paragraph styled with dark crimson color.*/
+   .intro{
+      color: #490e11;
+   }
+
+   /* #summit heading styled with left border and padding */
+   #summit{
+      border-left: 4px solid #4A5043;
+      padding-left: 0.5rem;
+   }
+
+
+   /* second rule targeting heading 2 with color teal */
+   h2{
+      color: #38A3A5;
+   }
